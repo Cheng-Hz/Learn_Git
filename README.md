@@ -1,7 +1,7 @@
 # Learn Git
 
 ## Basic
-Git教程:
+**Git教程:**
 https://www.liaoxuefeng.com/wiki/896043488029600
 
 ## Q&A
