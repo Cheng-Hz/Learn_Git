@@ -47,6 +47,8 @@ Git管理是保存修改，所以每次都要进行`add`与`commit`操作
 
 `git push origin master//从现在起，只要本地作了提交，就可以通过命令`
 
+如果添加的时候地址写错了，或者就是想删除远程库，可以用`git remote rm <name>`命令。使用前，建议先用`git remote -v`查看远程库信息：
+
 ## Q&A
 
 **fatal: remote origin already exists. (远程来源已经存在 解决办法):**
