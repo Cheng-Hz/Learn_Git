@@ -30,6 +30,10 @@ git reset --hard HEAD^//回退到上一版本
 
 `git reflog//用来记录你的每一次命令`
 
+Git管理是保存修改，所以每次都要进行`add`与`commit`操作
+
+`git diff HEAD -- readme.txt//查看工作区和版本库里面最新版本的区别`
+
 
 ## Q&A
 
