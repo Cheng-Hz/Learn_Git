@@ -41,7 +41,9 @@ Git管理是保存修改，所以每次都要进行`add`与`commit`操作
 `git rm file//delete`
 一是确实要从版本库中删除该文件，那就用命令`git rm`删掉，并且`git commit`
 
+`git remote add origin git@`
 
+`git push -u origin master`
 
 ## Q&A
 
