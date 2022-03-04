@@ -34,6 +34,14 @@ Git管理是保存修改，所以每次都要进行`add`与`commit`操作
 
 `git diff HEAD -- readme.txt//查看工作区和版本库里面最新版本的区别`
 
+`git checkout -- file//可以丢弃工作区的修`
+
+`git reset HEAD <file>//可以把暂存区的修改撤销掉（unstage），重新放回工作区`
+
+`git rm file//delete`
+一是确实要从版本库中删除该文件，那就用命令`git rm`删掉，并且`git commit`
+
+
 
 ## Q&A
 
